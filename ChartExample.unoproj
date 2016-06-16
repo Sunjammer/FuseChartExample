@@ -5,6 +5,7 @@
 		"Fuse.Scripting"
 	],
 	"Includes": [
+		"uno/*",
 		"*",
 		"Chart.bundle.min.js:Bundle"
 	]
