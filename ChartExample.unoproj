@@ -1,0 +1,11 @@
+{
+	"Packages": [
+		"Fuse",
+		"FuseJS",
+		"Fuse.Scripting"
+	],
+	"Includes": [
+		"*",
+		"Chart.bundle.min.js:Bundle"
+	]
+}
