@@ -75,7 +75,10 @@ namespace BundleUnpacker
 		
 		static extern(!Mobile) string GetTempDir()
 		{
-			return File.UserDirectory.Data;
+			var dir = Uno.IO.Directory.GetUserDirectory(Uno.IO.UserDirectory.Data) + "/Fuse_ExtractedBundles"; //Not exactly a killer approach, this
+				if (!Directory.Exists(dir))
+					Directory.CreateDirectory(dir);
+			return dir;
 		}
 	}
 }
