@@ -5,7 +5,6 @@ using Uno.Text;
 using Uno.Threading;
 using Fuse.Scripting;
 using Uno.Compiler.ExportTargetInterop;
-using BundleUnpacker.Utils;
 
 namespace BundleUnpacker
 {
